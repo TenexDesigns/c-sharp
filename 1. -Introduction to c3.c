@@ -26,8 +26,14 @@ Class is a container which has data(also called attribyted) and functions (also 
   As the number of classes grow in our application, we need a way to organise these clases, That is where Namespace comes in
   
   NAMESPACE - IS A CONTAINER FOR RELATED CLASESS
+  We have namespaces for working with graphics and images,we have namespeces for working with databases, we have namespaces for working with security
 
+As our namespeces grow and increase , we need a way to group thses name spaces, and that is where ASSEMBLY COMES IN
 
+ASSEMBLY - Is a container for related name spaces, pysicaliy it can be a file on the disc , which can either be an excutable, or a dll(dynamicaly linked libray)
+  
+  When a compiler excutes your aplication, it is partion to one or more assemblyies depending on how you partion your code
+  
 
 
 
