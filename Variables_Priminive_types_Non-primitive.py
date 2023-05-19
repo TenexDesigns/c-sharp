@@ -73,9 +73,45 @@ Additionally, C# also provides non-primitive types such as strings, arrays, clas
 
 
 
+NON - PRIMITIVE TYPES
 
+String 
+Array
+Enum
+Class
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
+In addition to primitive types, C# also provides non-primitive types, which are more complex data types that are derived from the primitive types or built-in types. Here are some commonly used non-primitive types in C#:
+
+String: Represents a sequence of characters. Strings are used to store and manipulate text.
+
+Array: Represents a fixed-size collection of elements of the same type. 
+  Arrays can store multiple values of the same type and provide indexed access to those values.
+
+Class: Represents a blueprint for creating objects. Classes define the structure and behavior of objects, including properties, methods, and events.
+
+Struct: Similar to classes, structs are also used to define custom data types.
+  However, structs are value types and have different memory allocation and copying behavior compared to classes.
+
+Enum: Enumerations are used to define a set of named constants. 
+  Enums provide a way to represent a group of related values with meaningful names.
+
+Interface: An interface defines a contract that classes can implement. 
+  It specifies a set of methods, properties, and events that a class must provide. 
+  Interfaces are used for achieving abstraction and defining common behavior.
+
+Delegate: Delegates are used to define and encapsulate methods with a particular signature. 
+  They are similar to function pointers in C++ and are widely used for event handling and callback mechanisms.
+
+Nullable Types: Nullable types allow you to assign null values to value types.
+  They are used when you need to represent the absence of a value in value types such as int, bool, etc.
+
+Tuple: Tuples allow you to group multiple elements of different types into a single object.
+  They provide a lightweight way to create and pass around multiple values.
+
+These non-primitive types provide more complex data structures and functionality beyond the simple values offered by primitive types. 
+They are fundamental in C# programming for organizing and manipulating data in a structured manner.
 
 
 
