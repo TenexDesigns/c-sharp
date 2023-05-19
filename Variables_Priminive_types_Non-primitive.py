@@ -35,6 +35,70 @@ for constants  :Pascal case     ----- > constant int MaxZom = 5;
 primitive types in c#
 
 
+VARIABLES EXPLAINED
+***************************************************************************************************************************************************************
+
+In C#, variables are used to store and manipulate data. They have a specific type that determines the kind of data they can hold. Here's an explanation of variables in C# with code samples:
+
+Declaring Variables:
+Variables in C# are declared using a specific type followed by a name. Here are some examples:
+
+int age;  // Declaring an integer variable named 'age'
+string name;  // Declaring a string variable named 'name'
+double salary;  // Declaring a double variable named 'salary'
+
+
+
+Initializing Variables:
+Variables can be initialized with an initial value at the time of declaration or later in the code. Here are examples of initializing variables:
+
+int age = 25;  // Initializing 'age' with a value of 25
+string name = "John";  // Initializing 'name' with the string "John"
+double salary;  // Declaring 'salary'
+salary = 5000.50;  // Assigning a value to 'salary' later
+
+
+Assigning Values to Variables:
+Variables can be assigned new values using the assignment operator (=). Here's an example:
+
+int x = 10;
+x = 20;  // Assigning a new value to 'x'
+
+
+
+
+Using Variables in Expressions:
+Variables can be used in expressions to perform calculations or combine values. Here are some examples:
+
+int b = 3;
+int sum = a + b;  // Using variables in an addition expression
+
+string firstName = "John";
+string lastName = "Doe";
+string fullName = firstName + " " + lastName;  // Combining variables in a string concatenation
+
+
+
+
+Variable Naming Conventions:
+In C#, variables follow certain naming conventions for readability and consistency. It's recommended to use meaningful names that describe the purpose of the variable. Here are some guidelines:
+Start variable names with a letter (or underscore) and use camelCase.
+Avoid using reserved keywords as variable names.
+Use descriptive names that indicate the purpose of the variable.
+
+int studentCount;  // Good variable name
+double _piValue;  // Good variable name with underscore
+string 123name;  // Invalid variable name (starts with a number)
+Variables are fundamental to working with data in C#. They allow you to store, manipulate, and retrieve values as your program executes. Understanding how to declare, initialize, and use variables is essential for writing effective C# code.
+
+
+
+
+
+
+MORE EXPLANTIONS
+***************************************************************************************************************************************************************
+
 In C#, primitive types are the basic data types provided by the language to represent simple values. These types are built into the C# language and are used to store common types of data. Here are the primitive types in C#:
 
 Boolean: Represents a Boolean value that can be either true or false.
