@@ -1,0 +1,256 @@
+using System;
+
+namespace MyFirstProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // return  = returns data back to the place where a method is invoked
+
+            double x;
+            double y;
+            double result;
+
+            Console.WriteLine("Enter in number 1: ");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter in number 2: ");
+            y = Convert.ToDouble(Console.ReadLine());
+
+            result = Multiply(x, y);
+
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+        static double Multiply(double x, double y)
+        {
+            return x * y;
+        }
+    }
+}
+
+
+
+RETURN KEYWORD
+**********************************************************************************************************************************************************
+
+
+In C#, the return keyword is used within a method to exit the method and optionally provide a value back to the caller. 
+When a return statement is encountered, the execution of the method terminates, and the control is returned to the caller along with the specified return value (if any).
+
+Heres an explanation of the return keyword in methods, along with code samples in C#:
+
+Returning a Value:
+Methods can return a value of a specified type using the return keyword. The return type of the method should match the type specified in the method signature.
+Example:
+
+
+int AddNumbers(int num1, int num2)
+{
+    int sum = num1 + num2;
+    return sum;
+}
+In this example, the method AddNumbers takes two integers as parameters, adds them together, and returns the sum using the return keyword.
+
+Returning from Void Methods:
+Void methods do not have a return type. They are used to perform actions without returning a value. In such cases, the return keyword is used to exit the method without returning a value explicitly.
+Example:
+
+
+void PrintMessage(string message)
+{
+    Console.WriteLine(message);
+    return; // Optional, as void methods can be exited without a return value
+}
+In this example, the method PrintMessage prints the specified message and exits using the return keyword.
+
+Early Return:
+The return statement can be used to exit a method prematurely, even before the method reaches its end. 
+This can be useful when certain conditions are met, and you want to terminate the method execution immediately.
+Example:
+
+
+int Divide(int dividend, int divisor)
+{
+    if (divisor == 0)
+    {
+        Console.WriteLine("Error: Division by zero is not allowed.");
+        return 0;
+    }
+    return dividend / divisor;
+}
+In this example, the method Divide checks if the divisor is zero.
+If so, it prints an error message and returns 0 to avoid division by zero. Otherwise, it performs the division and returns the result.
+
+Returning Complex Types:
+Methods can also return complex types, such as objects, arrays, or custom-defined types. 
+The return keyword is used to provide the desired value to the caller.
+Example:
+
+csharp
+Copy code
+Person GetPerson()
+{
+    Person person = new Person("John", 25);
+    return person;
+}
+In this example, the method GetPerson creates a Person object, initializes it with a name and age, and returns the object to the caller.
+
+The return keyword allows methods to provide results or values back to the caller. 
+It is especially useful when you need to calculate a value, perform a specific operation, or return complex types from methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
